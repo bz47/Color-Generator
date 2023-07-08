@@ -1,0 +1,31 @@
+body{
+    margin: 0 auto;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:60rem;
+    width: 105rem;
+    border: solid black 2px;
+}
+
+#button{
+    height: 10rem;
+    width: 15rem;
+    font-size: 2rem;
+    background-color: silver;
+    color: rgb(red, green, blue);
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+    height: 5rem;
+    width: 15rem;
+}
