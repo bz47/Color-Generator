@@ -1,5 +1,8 @@
 body {
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: indianred;
 }
 
@@ -8,17 +11,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 60rem;
-  width: 105rem;
-  border: solid black 2px;
+  width: 100%;
+  min-width: fit-content;
+  padding: 5%;
+  height: 100vh;
+  border: solid black 1px;
 }
 
 #button {
-  height: 10rem;
-  width: 15rem;
+  min-width: fit-content;
+  height: clamp(3rem, 6rem, 8rem);
   font-size: 2rem;
   background-color: silver;
-  color: rgb(red, green, blue);
 }
 
 button:hover {
